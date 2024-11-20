@@ -121,7 +121,7 @@ span{
 
 @media screen and (max-width:480px){
     .list-item{
-        width: 100%;
+        width: 90%;
     }
     .name-input,.department-input{
         width: 100%;

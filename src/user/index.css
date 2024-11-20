@@ -95,17 +95,8 @@ body{
     .user-list-container{
         width: 100%;
         justify-content: center;
-        padding: 5px;
+        padding: 20px 5px 5px 5px;
+        
     }
 }
 
-/* table{
-    width: 60%;
-    height: 100px;
-    background-color: #ffffff;
-    
-}
-
-th{
-    border: 2px solid #0f475f; 
-}*/

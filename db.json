@@ -1,0 +1,55 @@
+{
+    "users" : [
+        {
+            "id":"999",
+            "firstName":"santhosh",
+            "lastName":"sirivennela",
+            "email":"santhosh333@gmail.com",
+            "department":"computers"
+        },
+        {
+            "id":"1000",
+            "firstName":"sandhya",
+            "lastName":"sirivennela",
+            "email":"sandhya343@gmail.com",
+            "department":"computers"
+        },
+        {
+            "id":"1001",
+            "firstName":"Ravi",
+            "lastName":"yeluri",
+            "email":"ravi333@gmail.com",
+            "department":"computers"
+        },
+        {
+            "id":"1002",
+            "firstName":"sandhya",
+            "lastName":"chirakuri",
+            "email":"sandhya343@gmail.com",
+            "department":"electronics"
+        }
+        ,
+        {
+            "id":"1003",
+            "firstName":"srinidhi",
+            "lastName":"gollaprolu",
+            "email":"srinidhi234@@gmail.com",
+            "department":"electronics"
+        }
+    ]
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

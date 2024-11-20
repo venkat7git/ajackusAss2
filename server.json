@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "1233",
+      "firstName": "sandhya",
+      "lastName": "sirivennela",
+      "email": "sandhya343@gmail.com",
+      "department": "computers"
+    },
+    {
+      "id": "1001",
+      "firstName": "virat",
+      "lastName": "kohli",
+      "email": "virat2332@gmail.com",
+      "department": "sports"
+    },
+    {
+      "id": "1002",
+      "firstName": "Rohith",
+      "lastName": "sharma",
+      "email": "rohith234@gmail.com",
+      "department": "CSEW"
+    },
+    {
+      "id": "1001",
+      "firstName": "virat",
+      "lastName": "kohli",
+      "email": "virat2332@gmail.com",
+      "department": "sports"
+    }
+  ]
+}

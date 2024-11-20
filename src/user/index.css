@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+*{
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+.main-container{
+    padding:40px;
+    text-align: center;
+    background-color: rgb(5, 32, 45);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width:480px){
+    .main-container{
+        padding: 20px;
+    }
+}
+.app-heading{
+    color: rgb(37, 148, 135);;
+    font-family: "Open sans";
+    margin-bottom: 40px;
+}
+
+.list-add-container{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:480px){
+    .list-add-container{
+        width: 100%;
+    }
+    
+}
+.users-list-heading{
+    font-size: 20px;
+    color: rgb(37, 148, 135);
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.add-user-btn{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    color: rgb(184, 167, 164);
+    background-color: rgb(15, 93, 10);
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.add-user-btn:hover{
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+}
+.hori-line{
+    width: 430px;
+    opacity: 0.2;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:480px){
+    .hori-line{
+        width: 100%;
+    }
+}
+
+.user-list-container{
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-family: "Roboto";
+    width: 600px;
+    list-style-type: none;
+    padding: 0px;
+    overflow: auto;
+    padding: 30px 0px 20px 40px;
+    
+}
+
+@media screen and (max-width:480px) {
+    .user-list-container{
+        width: 100%;
+        justify-content: center;
+        padding: 5px;
+    }
+}
+
+/* table{
+    width: 60%;
+    height: 100px;
+    background-color: #ffffff;
+    
+}
+
+th{
+    border: 2px solid #0f475f; 
+}*/

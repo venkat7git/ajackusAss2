@@ -1,0 +1,134 @@
+
+.name,.department{
+    color: #000000;
+    max-width: 100%;
+    text-align: start;
+    margin: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.id{
+    color: #501a08;
+    max-width: 150px;
+    text-align: start;
+    margin: 4px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buttons-container{
+    
+    margin-top: 10px;
+}
+.edit-button{
+    font-size: 12px;
+    height: 30px;
+    background-color: rgba(14, 186, 186, 0.996);
+    width: 60px;
+    color: #10053c;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+
+}
+.edit-button:hover{
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+}
+.delete-button{
+    background-color: rgb(118, 14, 21);
+    width: 60px;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 12px;
+    height: 30px;
+}
+.delete-button:hover{
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    color: black;
+}
+
+.list-item{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: linear-gradient(to right,#114b4b,#622d4b);
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform .2s;
+}
+
+.list-item:hover{
+  
+    transform: scale(1.1);
+
+}
+
+
+.id-input{
+    margin-top: 15px;
+    width: 100%;
+    border: 2px solid #124d52;
+    height: 30px;
+    padding: 0px 0px 0px 4px;
+    margin: 5px 0px 0px 0px;
+}
+.name-input{
+    width: 100%;
+    border: 2px solid #124d52;
+    height: 35px;
+    margin-top: 15px;
+    margin: 0px;
+    
+    margin: 2px 0px 8px 0px;
+}
+
+.department-input{
+    width: 100%;
+    border: 2px solid #124d52;
+    height: 35px;
+    margin-top: 15px;
+    margin: 0px;
+    
+    margin: 2px 0px 8px 0px;
+}
+
+
+
+span{
+    font-weight: bold;
+    color: #3e0b2d;
+    font-size: 14px;
+}
+.input-label{
+    color: rgb(64, 36, 12);
+    font-weight: bold;
+    font-size: 14px;
+}
+.input-container{
+    text-align: left;
+    
+}
+
+@media screen and (max-width:480px){
+    .list-item{
+        width: 100%;
+    }
+    .name-input,.department-input{
+        width: 100%;
+        height: 40px;
+    }
+    .input-container{
+        width: 100%;
+        
+    }
+}

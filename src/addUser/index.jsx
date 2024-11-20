@@ -81,8 +81,8 @@ const UserAdd = (props)=>{
                 return (
                     <div className="add-user-container">
                 <form onSubmit={onSubmitForm} className="user-form">
-                    
-                    <h1 className='add-user-heading'>Add User</h1>
+                <img src="https://res.cloudinary.com/dbb5puzve/image/upload/v1732101711/307ce493-b254-4b2d-8ba4-d12c080d6651-removebg-preview_sapb45.png"/>
+                    {/* <h1 className='add-user-heading'>Add User</h1> */}
                     <div className='input-container'>
                         <label htmlFor='firstName'>First Name</label>
                         <br/>

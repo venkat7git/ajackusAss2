@@ -13,7 +13,7 @@ body{
 .main-container{
     padding:40px;
     text-align: center;
-    background-color: rgb(5, 32, 45);
+    background-color: rgb(21, 23, 51);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ body{
 
 @media screen and (max-width:480px){
     .list-add-container{
-        width: 100%;
+        width: 85%;
     }
     
 }
@@ -73,7 +73,7 @@ body{
 
 @media screen and (max-width:480px){
     .hori-line{
-        width: 100%;
+        width: 87%;
     }
 }
 
@@ -100,3 +100,15 @@ body{
     }
 }
 
+img{
+    width:100px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.user-image{
+    width:100px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: 0.7;
+}

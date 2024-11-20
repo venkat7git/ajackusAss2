@@ -49,7 +49,8 @@ const User = (props)=>{
                 const successView = ()=>{
                     return (
                         <div className="main-container">
-                <h1 className="app-heading">User Details</h1>
+                <img className="user-image" src="https://res.cloudinary.com/dbb5puzve/image/upload/v1732102163/group_bjsdvp.png"/>
+                {/* <h1 className="app-heading">User Details</h1> */}
     
                 <div className="list-add-container">
                     <h1 className="users-list-heading">Users List</h1>
